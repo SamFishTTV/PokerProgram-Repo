@@ -32,6 +32,22 @@ public class Card {
         return value;
     }
     
+    /**
+     * returns if two card objects are equal,
+     * only compares card objects. will not consider
+     * other classes 
+     * @param otherCard is the card we are comparing to
+     * @return boolean if the cards are equal or not
+     */
+    public boolean equals(Card otherCard) {
+        if (this.getSuit() == otherCard.getSuit()&&
+            this.getValue()== otherCard.getValue()) {
+            return true;
+        }
+        else 
+            return false;
+    }
+    
     
       
     
