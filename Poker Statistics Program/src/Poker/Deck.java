@@ -123,6 +123,7 @@ public class Deck {
       * gets the card at the top of the deck 
       * and then uses the removeCard method to remove the card
       * and shift the null index to the bottom of the deck 
+      * returns null if deck is empty 
       * @return the card object that is removed from the top of deck
       *    
       */
